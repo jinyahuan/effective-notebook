@@ -12,19 +12,40 @@ Down 指代 键盘上的 Up(↓) 键
 Left 指代 键盘上的 Up(←) 键
 Right 指代 键盘上的 Right(→) 键
 
-| 快捷键                            | 描述 |
-| :---                              | :--- |
+可以查询对应的快捷键
+1. 打开 Eclipse。
+2. 菜单栏中依次点击 Windows -> Preferences -> General -> Keys。
+	* 
+
+| 快捷键                        | 描述 |
+| :---                          | :--- |
 |||
-| Alt + Shift + Up                  | 选择光标所在的块（从单词、语句块、方法块等等，范围越来越大） |
-| Alt + Shift + Right               | 同上 |
-| Alt + Shift + Left                | 同上 |
-| Alt + Shift + Down                | 与 Ctrl + Alt + Up/Right/Left 操作相反 |
-| Alt + Up                          | 将光标所在行的内容移动到上面一行 |
-| Alt + Down                        | 将光标所在行的内容移动到下面一行 |
+| Alt+Shift+Up                  | 选择光标所在的块（从单词、语句块、方法块等等，范围越来越大） |
+| Alt+Shift+Right               | 同上 |
+| Alt+Shift+Left                | 同上 |
+| Alt+Shift+Down                | 与 Ctrl+Alt+Up/Right/Left 操作相反 |
+| Alt+Up                        | 将光标所在行的内容移动到上面一行 |
+| Alt+Down                      | 将光标所在行的内容移动到下面一行 |
+| Alt+Right                     | 回到上一次编辑的地方 |
+| Alt+left                      | 回到下一次编辑的地方 |
+| Alt+Enter                     | 显示当前文件的 Properties |
+| Alt+Shift+O                   | 自动 import 包（若有重名的类需自己选择） |
+| Alt+Shift+J                   | 快速生成 Javadoc 注释 |
 |||
-| Ctrl + Alt + H                    | 查看该方法被哪些方法调用（eclipse 原文 Open Call Hierarchy） |
-| Ctrl + Alt + Up                   | 将光标所在行的内容复制到上面一行 |
-| Ctrl + Alt + Down                 | 将光标所在行的内容复制到下面一行 |
+| Ctrl+Alt+H                    | 查看该方法被哪些方法调用（eclipse 原文 Open Call Hierarchy） |
+| Ctrl+Alt+Up                   | 将光标所在行的内容复制到上面一行 |
+| Ctrl+Alt+Down                 | 将光标所在行的内容复制到下面一行 |
+| Ctrl+D                        | 删除光标所在行 |
+| Ctrl+Z                        | 撤销 |
+| Ctrl+Y                        | 与 Ctrl+Z 操作相反|
+| Ctrl+I                        | 更正所选行的缩进（只缩进行首） |
+| Ctrl+Shift+F                  | Format 选中的内容 |
+|||
+| Shift+Enter                   | 在光标所在行下面一行插入空白行|
+| Ctrl+Shift+Enter              | 在光标所在行上面一行插入空白行|
+|||
+| Table                         | 增加缩进 |
+| Shift+Table                   | 与 Table 操作相反 |
 
 
 
