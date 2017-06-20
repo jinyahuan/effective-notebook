@@ -60,6 +60,27 @@ Right 指代 键盘上的 Right(→) 键
 	*  在右侧中找到 New text file line delimiter 类别框，使用 Unix 的换行分割符。
 		* 勾选 Other，然后选择 Unix，如果没有找到该内容，则自己输入。
 
+#### 字体设置
+1. 打开 Eclipse。
+2. 菜单栏中依次点击 Windows -> Preferences -> General -> Appearance -> Colors and Fonts。
+	* 设置字体、字型及大小
+		* 展开 Basic。
+		* 选择 Text Font 后，点击 Edit(或直接双击 Text font)。
+		* 设置字体
+			* 默认为 Consolas，如果需要替换，在下方的列表框自行选择。
+		* 设置字型
+			* 默认为 常规，如果需要替换，在下方的列表框自行选择。
+		* 设置大小
+			* 建议设置为 12 或 小四（太小看着难受，太大放不了多少代码）。
+
+#### console 打印的最大字符数设置
+1. 打开 Eclipse。
+2. 菜单栏中依次点击 Windows -> Preferences -> Run/Debug -> Console。
+	* 设置为无限制模
+		* 去除 Limit console output 前的“勾”。
+	* 设置为指定字符数
+		* 勾选 Limit console output
+		* 在 Console buffer size (characters) 中输入指定的值（默认为80000）。
 
 
 ### 格式设置
