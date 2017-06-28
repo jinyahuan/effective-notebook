@@ -13,3 +13,6 @@
 ### HTTP 错误 404.17 - Not Found
 请求的内容似乎是脚本，因而将无法由静态文件处理程序来处理。 
 解决方案：http://blog.csdn.net/u010028869/article/details/49338131  
+
+### 不识别 .woff 字体
+解决方案：http://blog.brain1981.com/727.html  
