@@ -6,6 +6,12 @@
 
 ### 快捷键
 
+#### 查看快捷键设置
+1. 打开 Eclipse。
+2. 菜单栏中依次点击 Windows -> Preferences -> General -> Keys。
+	* 然后就可以查看所有的快捷键了。
+	* 检索。可以在 “type filter text”框中输入对应的快捷键或备注快速查询该快捷键。如： 输入 Content Assist 或 Alt+/。
+
 #### 常用快捷键
 Up 指代 键盘上的 Up(↑) 键   
 Down 指代 键盘上的 Up(↓) 键   
