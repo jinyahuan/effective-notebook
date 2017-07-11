@@ -127,3 +127,16 @@ Right 指代 键盘上的 Right(→) 键
 		* 设置 Auto activation delay(ms) ，以300ms 为例，那么输入300。
 	3. 设置提示的触发器（符合该内容中的某一项就会触发内容提示）
 		* 设置 Auto activation triggers for Java，以26个大小写英文字母、点、括号为例，那么输入".ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()"（双引号内的内容）。
+
+#### 验证（Validation）设置（推荐在导入项目和最终版时启用全部验证，开发时使用本设置）
+1. 打开 Eclipse
+2. 菜单栏中依次点击 Windows -> Preferences -> Validation
+	1. 去除（即不要打勾） Build 列中的：
+		* DTD Validator
+		* XML Schema Validator
+		* XML Validator
+		* XSL Validator
+	2. 如果不需要手动验证，可以去除 manual 列中的项。建议保留 manual 列中的所有项。
+
+
+
