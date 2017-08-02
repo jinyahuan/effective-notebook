@@ -111,6 +111,11 @@ Right 指代 键盘上的 Right(→) 键
 		* 可以在默认的规则中选择一套，也可以 Import 本地外部规则库（自定义的或第三方的）
 			* Import 本地外部规则库，点击 Import，然后找到文件，点击 打开 即可导入（注意：如果导入多个外部库时，修改一个库的同时可能会修改另外的库的规则，所以尽量只使用一套，想要替换的化先 Export 该规则库）。
 			* 新建一个新的规则库（基于已存在的规则库）：暂略。
+		* 自定义 Formatter
+			* 点击右侧的 Edit...
+			* 设置 Comments
+				* 定位到 Javadoc comment settings 内容框
+				* 去除 Format HTML tags，去除了部分`html`标签后的内容不会换行 （参考了`Google`、`Spring-framework`、`Apache`等一些代码的`Comments`）
 	* 设置 Code Templates（代码模版）
 		* 点击 Code Templates
 		* 具体设置暂略。
