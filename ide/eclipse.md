@@ -115,7 +115,7 @@ Right 指代 键盘上的 Right(→) 键
 			* 点击右侧的 Edit...
 			* 设置 Comments
 				* 定位到 Javadoc comment settings 内容框
-				* 去除 Format HTML tags，去除了部分`html`标签后的内容不会换行 （参考了`Google`、`Spring-framework`、`Apache`等一些代码的`Comments`）
+				* 去除 Format HTML tags。去除后部分`html`标签后的内容不会换行 （参考了`Google`、`Spring-framework`、`Apache`等一些代码的`Comments`）
 	* 设置 Code Templates（代码模版）
 		* 点击 Code Templates
 		* 具体设置暂略。
