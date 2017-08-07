@@ -119,6 +119,9 @@ Right 指代 键盘上的 Right(→) 键
 	* 设置 Code Templates（代码模版）
 		* 点击 Code Templates
 		* 具体设置暂略。
+	* 设置 Formatter (代码格式化)
+		* 点击 Formatter
+		* 推荐 Import [eclipse-java-google-style.xml][google_formatter_file]
 	* 设置 Organize Imports
 		* 点击 Organize Imports
 		* 这里我是按照字母表排序设置的。具体查看[alphabetical_order.importorder][importorder_file]，可以直接把该文件下载下来，然后 Import 到你的 eclipse 中
@@ -147,4 +150,5 @@ Right 指代 键盘上的 Right(→) 键
 	2. 如果不需要手动验证，可以去除 manual 列中的项。建议保留 manual 列中的所有项。
 
 
+[google_formatter_file]:  https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml
 [importorder_file]:  https://github.com/jinyahuan/effective-notebook/blob/master/assets/eclipse-config/alphabetical_order.importorder
