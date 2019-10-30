@@ -15,3 +15,13 @@
   * File -> Settings... -> Plugins -> Browse repositories...
   * 搜索 Lombok，找到同名的
   * Install，然后重启就可以用了
+
+## FindBugs
+### 相关网址
+* [插件源码网址](https://github.com/andrepdo/findbugs-idea)
+* [插件网址](http://plugins.jetbrains.com/plugin/3847-findbugs-idea)
+### 如何安装 FindBugs
+* 方式一：直接在 IDEA 的插件库中安装
+  * File -> Settings... -> Plugins -> Browse repositories...
+  * 搜索 FindBugs-IDEA，找到同名的
+  * Install，然后重启就可以用了
