@@ -32,7 +32,7 @@
 
 #### 设置全局项目的文件编码
 > * File -> Other Settings -> Settings for New Projects... -> Editor -> File Encoding
-除了进入的姿势不一样，之后的操作与[设置当前项目的文件编码][config_current_project_file_encoding_uri]一样
+> * （除了进入的姿势不一样）之后的操作与[设置当前项目的文件编码][config_current_project_file_encoding_uri]一样
 
 
 ## Configure UI
