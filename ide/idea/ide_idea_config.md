@@ -11,7 +11,7 @@
 
 ## Configure Development
 
-### ## 设置换行符
+### 设置换行符
 > * File -> Settings... -> Editor -> Code Style
 > * 在```General```栏中找到```Line separator```，默认是跟随系统，我这里选择```Unix and macOS (\n)```
 > * ```Apply``` 或者 ```OK```
