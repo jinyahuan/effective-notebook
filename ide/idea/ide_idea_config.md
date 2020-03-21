@@ -8,13 +8,31 @@
 * 注意：所有的相关配置操作都基于 [IntelliJ IDEA 社区版](https://github.com/JetBrains/intellij-community)原版（英文版），若是旗舰版或者汉化版可能会有点差异
 * base on: ideaIC-2019.3.3
 
+* TIPS: 不一定要按照操作顺序，一步步进到需要操作的地方，进入到```Settings...```之后就可以直接搜索关键字了
+
 
 ## Configure Development
+* [Java Develop Configuration](./ide_idea_config_java.md)
 
 ### 设置换行符
 > * File -> Settings... -> Editor -> Code Style
 > * 在```General```栏中找到```Line separator```，默认是跟随系统，我这里选择```Unix and macOS (\n)```
 > * ```Apply``` 或者 ```OK```
+
+### 设置文件编码
+
+#### 设置当前项目的文件编码
+> * File -> Settings... -> Editor -> File Encoding
+> * Global Encoding: 选择 UTF-8
+> * Project Encoding: 选择 UTF-8
+> * Properties Files (*.properties)
+>   * Default encoding for properties files: 选择 ISO 8859-1
+>   * transparent native-to-ascii conversion: 勾上  （这个主要是方便查看配置文件的内容，以本地化编码显示）
+> * ```Apply``` 或者 ```OK```
+
+#### 设置全局项目的文件编码
+> * File -> Other Settings -> Settings for New Projects... -> Editor -> File Encoding
+除了进入的姿势不一样，之后的操作与[设置当前项目的文件编码][config_current_project_file_encoding_uri]一样
 
 
 ## Configure UI
@@ -48,3 +66,6 @@
 > * File -> Settings... -> Appearance & Behavior -> System Settings
 > * 取消勾选的```Reopen last project on startup```
 > * ```Apply``` 或者 ```OK```
+
+
+[config_current_project_file_encoding_uri]: ./ide_idea_config.md#设置当前项目的文件编码
