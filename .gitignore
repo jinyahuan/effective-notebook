@@ -1,0 +1,14 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+bin/
+
+# JetBrains
+.idea/
+.idea_modules/
+out/
+*.ipr
+*.iws
+*.iml
