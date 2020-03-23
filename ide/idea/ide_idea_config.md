@@ -56,7 +56,7 @@
 >       ````
 > * ```Apply``` 或者 ```OK```
 
-##### 设置文件的 copyright
+#### 设置文件的 copyright
 > * File -> Settings... -> Editor -> Copyright -> Copyright Profiles
 > * 按情况新建/复制/导入一份，以新建为例
 > * 点击```+```，然后输入名字，点击```OK```
