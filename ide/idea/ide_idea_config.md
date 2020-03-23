@@ -34,6 +34,38 @@
 > * File -> Other Settings -> Settings for New Projects... -> Editor -> File Encoding
 > * （除了进入的姿势不一样）之后的操作与[设置当前项目的文件编码][config_current_project_file_encoding_uri]一样
 
+#### 过滤项目窗口指定的文件夹/文件
+> * File -> Settings.. -> Editor -> File Types
+> * 在下方的```Ignore files and folders```中补充自己需要过滤的文件夹或文件
+>     * 例如：```.idea;.classpath;.project;.settings;*.iml;.gitignore;```
+> * ```Apply``` 或者 ```OK```
+
+#### 设置代码文件模板
+
+##### 设置代码文件的文件头注释
+> * File -> Settings... -> Editor -> File and Code Templates
+> * 点击 Includes
+> * 点击 File Header
+> * 然后在右侧的输入框中输入自己的模板
+>     * 例如：
+>       ```
+>       /**
+>        * @author Yahuan Jin
+>        * @since 1.0
+>        */
+>       ````
+> * ```Apply``` 或者 ```OK```
+
+##### 设置文件的 copyright
+> * File -> Settings... -> Editor -> Copyright -> Copyright Profiles
+> * 按情况新建/复制/导入一份，以新建为例
+> * 点击```+```，然后输入名字，点击```OK```
+> * ```name```框可以修改模板的名字
+> * 在```Copyright text (may contain Velocity templates):```框中输入版权信息
+>     * 例如：
+>       ```Copyright (c) 2020 Yahuan Jin. All rights reserved.```
+> * ```Apply``` 或者 ```OK```
+
 
 ## Configure UI
 
