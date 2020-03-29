@@ -24,6 +24,12 @@
 
 
 ## Lombok
+### 使用方式
+> * 第一次使用时，需要开启注解处理器
+>     * 只针对当前项目：File | Settings | Build, Execution, Deployment | Compiler | Annotation Processors
+>     * 或者修改全局配置（针对所有新项目）：File | Others Settings | Settings for New Projects | Build, Execution, Deployment | Compiler | Annotation Processors
+>     * 勾选```Enable annotation processing```
+>     * ```Apply``` 或者 ```OK```
 ### 相关网址
 * [插件网址](http://plugins.jetbrains.com/plugin/6317-lombok)
 * [插件源码网址](https://github.com/mplushnikov/lombok-intellij-plugin)
