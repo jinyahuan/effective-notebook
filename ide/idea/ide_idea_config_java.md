@@ -25,3 +25,18 @@
 > * Other 模块 找到 `Show quick documentation on mouse move`，打上勾
 > * 设置 Tooltip delay （延迟时间），默认的也可以
 > * ```Apply``` 或者 ```OK```
+
+#### 配置代码风格（格式化）
+> * 统一入口为: File | Settings | Editor | Code Style | Java
+> * 具体配置见下面的相关配置
+> * 配置完后: ```Apply``` 或者 ```OK```
+
+#### else 放到新的一行（也就是大括号后不跟上 else 了）
+> * 找到 ```Wrapping and Braces```
+> * 找到 ```'if()' statement```
+> * 勾选上 ```'else' on new line```
+
+#### 简单的方法 方法与大括号在同一行
+> * 找到 ```Wrapping and Braces```
+> * 找到 ```Keep when reformatting```
+> * 勾选上 ```Simple methods in one line```
