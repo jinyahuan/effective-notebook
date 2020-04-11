@@ -40,3 +40,23 @@
 > * 找到 ```Wrapping and Braces```
 > * 找到 ```Keep when reformatting```
 > * 勾选上 ```Simple methods in one line```
+
+--------
+
+#### 设置全局（默认）的项目配置
+> * 总入口: 起始页 -> Configure -> Structure for New Projects -> Project
+> * 配置完后: ```Apply``` 或者 ```OK```
+
+##### 设置全局（默认）的 JDK
+> * 找到 ```Project SDK```，然后自己选择/创建
+
+--------
+
+#### 设置 Console 输出的行数上限
+注意: 不是设定具体的行数，而是通过修改```buffer size```来延迟删除旧行
+> * File | Settings | Editor | General | Console
+> * 勾选```Override console cycle buffer size (1024 KB)```
+> * 然后填上自己需要值
+> * ```Apply``` 或者 ```OK```
+
+--------
