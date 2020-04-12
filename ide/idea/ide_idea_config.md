@@ -12,7 +12,7 @@
 
 
 ## Configure Development
-* [Java Develop Configuration](./ide_idea_config_java.md)
+* [Java Develop Configuration (Java 开发相关的配置)](./ide_idea_config_java.md)
 
 ### 设置换行符
 > * File -> Settings... -> Editor -> Code Style
