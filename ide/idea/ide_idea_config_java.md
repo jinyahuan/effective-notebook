@@ -31,15 +31,20 @@
 > * 具体配置见下面的相关配置
 > * 配置完后: ```Apply``` 或者 ```OK```
 
-#### else 放到新的一行（也就是大括号后不跟上 else 了）
+##### else 放到新的一行（也就是大括号后不跟上 else 了）
 > * 找到 ```Wrapping and Braces```
 > * 找到 ```'if()' statement```
 > * 勾选上 ```'else' on new line```
 
-#### 简单的方法 方法与大括号在同一行
+##### 简单的方法 方法与大括号在同一行
 > * 找到 ```Wrapping and Braces```
 > * 找到 ```Keep when reformatting```
 > * 勾选上 ```Simple methods in one line```
+
+##### JavaDoc 单行注释时不格式化成标准模式
+> * 找到 ```JavaDoc```
+> * 找到 ```Other```
+> * 勾选上 ```Do not wrap one line comments```
 
 --------
 
