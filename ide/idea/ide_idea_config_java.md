@@ -31,6 +31,21 @@
 > * 具体配置见下面的相关配置
 > * 配置完后: ```Apply``` 或者 ```OK```
 
+##### if-else, for, while, do-while 强制用大括号括起来(即使只有一句代码，或者没有代码)
+> * 找到 ```Wrapping and Braces```
+>     * 配置```if-else```语句
+>         * 找到 ```'if()' statement```
+>         * 找到 ```Force braces```, (有多个选项)然后选择```Always```
+>     * 配置```for```语句
+>         * 找到 ```'for()' statement```
+>         * 找到 ```Force braces```, (有多个选项)然后选择```Always```
+>     * 配置```while```语句
+>         * 找到 ```'while()' statement```
+>         * 找到 ```Force braces```, (有多个选项)然后选择```Always```
+>     * 配置```do-while```语句
+>         * 找到 ```'do ... while()' statement```
+>         * 找到 ```Force braces```, (有多个选项)然后选择```Always```
+
 ##### else 放到新的一行（也就是大括号后不跟上 else 了）
 > * 找到 ```Wrapping and Braces```
 > * 找到 ```'if()' statement```
