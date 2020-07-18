@@ -56,6 +56,11 @@
 > * 找到 ```Keep when reformatting```
 > * 勾选上 ```Simple methods in one line```
 
+##### 简单的类 定义与大括号在同一行
+> * 找到 ```Wrapping and Braces```
+> * 找到 ```Keep when reformatting```
+> * 勾选上 ```Simple classes in one line```
+
 ##### JavaDoc 单行注释时不格式化成标准模式
 > * 找到 ```JavaDoc```
 > * 找到 ```Other```
