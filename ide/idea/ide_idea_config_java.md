@@ -61,6 +61,11 @@
 > * 找到 ```Keep when reformatting```
 > * 勾选上 ```Simple classes in one line```
 
+##### 类后的大括号位置（如果有换行就放到新的一行）
+> * 找到 ```Wrapping and Braces```
+> * 找到 ```Braces placement```
+> * 选择 ```Next line if wrapped```
+
 ##### JavaDoc 单行注释时不格式化成标准模式
 > * 找到 ```JavaDoc```
 > * 找到 ```Other```
