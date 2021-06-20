@@ -100,4 +100,30 @@
 > * ```Apply``` 或者 ```OK```
 
 
+## Others Configure
+
+### 自定义 IDEA 开发环境文件的位置
+IDEA 开发环境文件的位置是```user.home```，会占用系统盘，所以我把它给改到开发盘了
+修改这个位置有两种做法，推荐使用第2种
+#### 方法1
+修改 IDEA 根目录下```./bin/idea.properties```文件。
+主要是修改: ```idea.config.path```以及```dea.system.path```，这两个配置默认是注释的，如果以及放开注释，则将其注释掉
+然后加上下面这段配置，具体路径自己配置，为了方便统一修改我自定义了一个根目录配置，这里示范的是```Windows```系统的
+```
+customer.ide.config.home=e:
+idea.config.path=${customer.ide.config.home}/.IdeaIC/config
+idea.system.path=${customer.ide.config.home}/.IdeaIC/system
+```
+
+#### 方法2
+自定义配置文件。
+直接打开 IDEA，help 菜单栏中有快速进入目录（```Edit Custom Properties...```）的链接
+然后加上这段，配置的描述见上面的**方法1**
+```
+customer.ide.config.home=e:
+idea.config.path=${customer.ide.config.home}/.IdeaIC/config
+idea.system.path=${customer.ide.config.home}/.IdeaIC/system
+```
+
+
 [config_current_project_file_encoding_uri]: ./ide_idea_config.md#设置当前项目的文件编码
